@@ -53,15 +53,7 @@ Crea una función que reciba una lista de enteros (int*) y
 retorne la suma de sus elementos.
 */
 int sumaLista(List *L) {
-   int n = 0;
-   int* elemento = (int*)first(L);
-   while (elemento != NULL)
-      {
-         n += elemento;
-         elemento = (int*)next(L);
-      }
-   
-   return n;
+   return 0;
 }
 
 /*
@@ -74,6 +66,13 @@ posiciona en el elemento anterior.
 */
 
 void eliminaElementos(List*L, int elem){
+   int aux = first(L);
+   while (aux != NULL)
+      {
+         if (elem == aux) popCurrent(L);
+         aux = next(L);
+      }
+   
 
 }
 
@@ -85,7 +84,6 @@ Puedes usar una pila auxiliar.
 */
 
 void copia_pila(Stack* P1, Stack* P2) {
-   Stack pAux;
    
 }
 
