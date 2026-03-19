@@ -32,3 +32,20 @@ exercises.c:61:19: error: assignment to ‘int’ from ‘void *’ makes intege
       |                   ^
 cc1: all warnings being treated as errors
 6cb4306
+Thu Mar 19 07:11:38 PM UTC 2026: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:57:19: error: cast from pointer to integer of different size [-Werror=pointer-to-int-cast]
+   57 |    int elemento = (int)first(L);
+      |                   ^
+exercises.c:58:20: error: comparison between pointer and integer [-Werror]
+   58 |    while (elemento != NULL)
+      |                    ^~
+exercises.c:61:21: error: cast from pointer to integer of different size [-Werror=pointer-to-int-cast]
+   61 |          elemento = (int)next(L);
+      |                     ^
+cc1: all warnings being treated as errors
+41cb9c0
