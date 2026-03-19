@@ -66,11 +66,11 @@ posiciona en el elemento anterior.
 */
 
 void eliminaElementos(List*L, int elem){
-   int aux = first(L);
+   int aux = (int)first(L);
    while (aux != NULL)
       {
          if (elem == aux) popCurrent(L);
-         aux = next(L);
+         aux = (int)next(L);
       }
    
 
