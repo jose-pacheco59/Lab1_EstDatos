@@ -57,7 +57,7 @@ int sumaLista(List *L) {
    int* aux = first(L);
    while (aux != NULL)
       {
-         n += aux;
+         n += *aux;
          aux = next(L);
          
       }

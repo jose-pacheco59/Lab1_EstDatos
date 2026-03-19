@@ -165,3 +165,9 @@ exercises.c:60:12: error: assignment to ‘int’ from ‘int *’ makes integer
    60 |          n += aux;
       |            ^~
 f0fe1b9
+Thu Mar 19 07:47:42 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|3
+total_score: 30/70
+c32052c
