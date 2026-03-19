@@ -54,11 +54,11 @@ retorne la suma de sus elementos.
 */
 int sumaLista(List *L) {
    int n = 0;
-   int elemento = (int)first(L);
+   int elemento = (int*)first(L);
    while (elemento != NULL)
       {
          n += elemento;
-         elemento = (int)next(L);
+         elemento = (int*)next(L);
       }
    
    return n;
@@ -85,6 +85,8 @@ Puedes usar una pila auxiliar.
 */
 
 void copia_pila(Stack* P1, Stack* P2) {
+   Stack pAux;
+   
 }
 
 /*
