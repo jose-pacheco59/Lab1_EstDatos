@@ -155,3 +155,13 @@ Thu Mar 19 07:42:57 PM UTC 2026:
  tests:  1|4
 total_score: 20/70
 bbbbc8b
+Thu Mar 19 07:47:18 PM UTC 2026: 
+ exercises.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:60:12: error: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+   60 |          n += aux;
+      |            ^~
+f0fe1b9
