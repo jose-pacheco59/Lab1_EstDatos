@@ -71,3 +71,19 @@ exercises.c:88:10: error: storage size of ‘pAux’ isn’t known
 exercises.c:88:10: error: unused variable ‘pAux’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 f9c166c
+Thu Mar 19 07:24:21 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:60:12: error: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Wint-conversion]
+   60 |          n += elemento;
+      |            ^~
+exercises.c: In function ‘copia_pila’:
+exercises.c:88:10: error: storage size of ‘pAux’ isn’t known
+   88 |    Stack pAux;
+      |          ^~~~
+exercises.c:88:10: error: unused variable ‘pAux’ [-Werror=unused-variable]
+cc1: all warnings being treated as errors
+d1659d9
